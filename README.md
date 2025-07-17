@@ -1,41 +1,73 @@
 # Tareas-Administracion
 ```mermaid
 graph LR
-    A[Antecedentes Históricos Mundiales de la Administración] --> B{Grandes Civilizaciones Antiguas}
-    B --> B1[Sumeria y Egipto]
-    B1 --> B1a[Construcción de pirámides y zigurats - Coordinación de grandes masas de trabajo]
-    B1 --> B1b[Sistemas de contabilidad y registros - Necesidad de organización y control]
-    B --> B2[Grecia y Roma]
-    B2 --> B2a[Organización militar y política - Jerarquía y disciplina]
-    B2 --> B2b[Administración de ciudades y vastos imperios - División del trabajo, centralización]
+    A[Orígenes de la Administración] --> B[Necesidad de Organización Humana y Gestión de Recursos]
+    B --> C[Civilizaciones Antiguas y sus Prácticas Administrativas]
 
-    A --> C{Revolución Industrial}
-    C --> C1[Siglos XVIII y XIX]
-    C1 --> C1a[Producción en masa - Necesidad de métodos eficientes]
-    C1 --> C1b[Fábricas y grandes empresas - Gestión de recursos humanos y materiales]
-    C1 --> C1c["Desarrollo de teorías económicas - Adam Smith (división del trabajo)"]
+    C --> C1["Sumerios (aprox. 5000 a.C.)"]
+    C1 --> C1a["Invención de la **escritura cuneiforme** para registros y control administrativo."]
+    C1 --> C1b["Desarrollo de **sistemas de control** para agricultura y comercio."]
 
-    D[Aportación de Platón a la Administración] --> D1[La República]
-    D1 --> D1a[Clasificación de las formas de gobierno - Importancia de la estructura]
-    D1 --> D1b[Especialización y división del trabajo - Eficiencia]
-    D1 --> D1c[Filósofos-reyes - La importancia del liderazgo y la sabiduría en la gestión]
-    D1 --> D1d[Organización jerárquica de la sociedad - Paralelo a la estructura organizacional]
+    C --> C2["Egipcios (aprox. 4000 a.C.)"]
+    C2 --> C2a["**Grandes construcciones** (pirámides) que evidencian planificación y organización complejas."]
+    C2 --> C2b["Desarrollo de **jerarquías administrativas** y sistemas de personal para proyectos masivos."]
 
-    E[Aportaciones de Filósofos Clásicos] --> E1[Sócrates]
-    E1 --> E1a[Aplicación de la administración a la vida diaria - La buena gestión en el hogar y el estado]
-    E1 --> E1b[Método socrático - Preguntas para el pensamiento crítico y la toma de decisiones]
+    C --> C3["Hebreos (aprox. 1800 a.C.)"]
+    C3 --> C3a["Principios de **liderazgo y delegación** bajo Moisés."]
+    C3a --> C3b["**Organización tribal** y un sistema de justicia."]
 
-    E --> E2[Aristóteles]
-    E2 --> E2a[La Política]
-    E2a --> E2a1[Clasificación de las formas de gobierno - Estudio de la eficiencia y la estabilidad de los sistemas políticos]
-    E2a --> E2a2["Concepto de #quot;economía#quot; (administración del hogar) - Gestión de recursos"]
-    E2a --> E2a3[Importancia de la ética y la justicia en la administración pública y privada]
-    E2 --> E2b[La Ética a Nicómaco]
-    E2b --> E2b1[Virtud y el justo medio - Relevancia para la toma de decisiones gerenciales]
-    E2b --> E2b2[Liderazgo virtuoso y el desarrollo del carácter]
+    C --> C4["Babilonios (aprox. 1792 a.C.)"]
+    C4 --> C4a["**Código de Hammurabi** con leyes y regulaciones, demostrando la importancia del **control**."]
 
-    E --> E3[Confucio]
-    E3 --> E3a[Principios de orden y jerarquía - Bases para la organización social y administrativa]
-    E3a --> E3a1[Importancia de la moralidad y la ética en el gobierno y la gestión]
-    E3a --> E3a2[Mérito y la capacitación - Selección de personal competente]
-    E3a --> E3a3["Filosofía de la #quot;rectificación de los nombres#quot; - Claridad en roles y responsabilidades"]
+    C --> C5["Chinos (aprox. 1100 a.C.)"]
+    C5 --> C5a["Bases para la **administración pública** con principios de **meritocracia** y **burocracia**."]
+
+    C --> C6["Griegos (aprox. 800 a.C.)"]
+    C6 --> C6a["Ideas sobre **democracia** y participación ciudadana."]
+    C6 --> C6b["Platón y Aristóteles reflexionaron sobre la **organización social y política**."]
+
+    C --> C7["Romanos (aprox. 753 a.C.)"]
+    C7 --> C7a["Vasto imperio con **administración centralizada** y un robusto **Derecho Romano**."]
+    C7a --> C7b["Su **organización militar** es un ejemplo de disciplina y estructura."]
+
+    C --> C8["Iglesia Católica (siglo I d.C.)"]
+    C8 --> C8a["Desarrollo de una **estructura jerárquica** y organización administrativa."]
+    C8a --> C8b["Modelo con principios de **autoridad, delegación y control**."]
+
+    C --> C9["Venecianos (siglos X-XVII)"]
+    C9 --> C9a["Prácticas administrativas innovadoras como la **contabilidad de doble entrada**."]
+    C9a --> C9b["**Gestión eficiente** en el Arsenal de Venecia, precursora de la producción en masa."]
+
+    C --> D[Aportaciones de Filósofos Clásicos a la Administración]
+
+    D --> D1["Platón (aprox. 380 a.C.)"]
+    D1 --> D1a["**La República**: Propone **especialización de funciones** (división del trabajo)."]
+    D1 --> D1b["Ideas sobre **jerarquía** social y **gobierno de los más aptos** (meritocracia)."]
+
+    D --> D2["Aristóteles (384-322 a.C.)"]
+    D2 --> D2a["**Política**: Analizó **formas de gobierno** y sentó bases para la **administración pública**."]
+    D2 --> D2b["Diferenció **economía** (gestión de la casa) de **crematística** (adquisición de riqueza)."]
+
+    D --> D3["Santo Tomás de Aquino (1225-1274)"]
+    D3 --> D3a["Basado en Aristóteles, abordó **justicia y propiedad**, influyendo en **ética empresarial**."]
+    D3a --> D3b["Defendió el **bien común** como objetivo de gobierno y administración."]
+
+    D --> D4["Jean-Jacques Rousseau (1712-1778)"]
+    D4 --> D4a["**El Contrato Social**: Propuso la **voluntad general** como base del gobierno legítimo."]
+    D4a --> D4b["Sus ideas sobre **soberanía popular** influenciaron la administración democrática."]
+
+    D --> D5["Carlos Marx (1818-1883)"]
+    D5 --> D5a["**El Capital**: Analizó **división del trabajo**, producción y relaciones de clase."]
+    D5a --> D5b["Debates sobre **condiciones laborales** y **gestión equitativa** (alienación del trabajo)."]
+
+    D --> D6["Adam Smith (1723-1790)"]
+    D6 --> D6a["**La Riqueza de las Naciones**: Destacó la **división del trabajo** para la productividad."]
+    D6a --> D6b["Concepto de la **mano invisible** para la asignación eficiente de recursos."]
+
+    D --> D7["David Ricardo (1772-1823)"]
+    D7 --> D7a["Teorías sobre **ventaja comparativa** y distribución de riqueza para **comercio internacional**."]
+    D7a --> D7b["Análisis de **rendimientos decrecientes** relevante para planificación de producción."]
+
+    D --> D8["John Locke (1632-1704)"]
+    D8 --> D8a["Ideas sobre **derechos naturales** y **gobierno limitado** (justicia y ética legal)."]
+    D8a --> D8b["El **contrato social** influyó en la rendición de cuentas de la administración."]
